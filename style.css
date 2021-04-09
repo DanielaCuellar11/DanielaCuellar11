@@ -1,27 +1,60 @@
-.carrot{color: #000000;
-font-family: arial;
-background-color: #FEA500; 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Playfair+Display:ital,wght@1,700&display=swap');
+
+body{
+    width: 64%;
+    margin-left: 18%;
 }
-.lemonPie{color: #000000;
-    font-family: arial;
-    background-color: #FEF400; 
+.carrot{color:white;
+font-family: arial; 
+}
+.lemonPie{color: white;
+    font-family: arial; 
     }
-p{Color: #444444;
-    font-family: arial;
+.fondo-lemon{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.7)
+      ), url(lemon-pie.png);
+    background-size: 100%;
+    background-position: center ;
+    padding-top: 220px;
+    background-repeat: no-repeat;
+
+}
+.fondo-cake{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.7)
+      ), url(carrot-cake.jpeg);
+    background-size: 100%;
+    background-position: center ;
+    padding-top: 220px;
+    background-repeat: no-repeat;
+
+}
+
+p{Color:white;
+    font-family: 'Inter', sans-serif;
 }
 li{
-    color: #444444;
-    font-family: arial;
+    color: #444;
+    font-family: 'Inter', sans-serif;;
     ; 
 }
 h2{
     Color: #000000;
-    font-family: 'Times New Roman';
+    font-family: 'Playfair Display', serif;
     font-style: italic;
     background-color: #EAEAEA;
 }
 h3{
-    Color: #000000;
-    font-family: 'Times New Roman';
+    Color: black;
+    font-family: 'Playfair Display', serif;
     font-style: italic;
+}
+.iconCake{
+    color: orange;
+}
+.iconLemon{
+    color: green;
 }
